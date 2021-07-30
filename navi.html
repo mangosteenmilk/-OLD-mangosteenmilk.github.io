@@ -31,10 +31,44 @@
 			.container {
 			padding: 2px 16px;
 			}
+			
+			body {
+			margin: 0;
+			font-family: sans-serif;
+			}
+
+			.topnav {
+			overflow: hidden;
+			background-color: rgba(51, 51, 51, 0);
+			}
+
+			.topnav a {
+			float: center;
+			color: #f2f2f2fb;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			}
+
+			.topnav a:hover {
+			background-color: #ddd;
+			color: rgb(2, 2, 2);
+			}
+
+			.topnav a.active {
+			background-color: #216264;
+			color: rgb(255, 255, 255);
+			}
 		</style>
 	</head>
 	<body class="is-preload">
-
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<!--<a href="about.html">About Me</a>
+			<a href="portfolio.html">Portfolio</a> -->
+			<a href="navi.html"> Navi</a>
+		  </div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -50,15 +84,7 @@
 
 				<!-- Main -->
 					<div id="main">
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html" class="active">Home</a></li>
-						<li><a href="about.html">About Me</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="navi.html">Navi</a></li>
-					</ul>
-				</nav>
+
 						<!-- Content -->
 							<section id="content" class="main">
 
